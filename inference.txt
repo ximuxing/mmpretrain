@@ -1,0 +1,4 @@
+python demo/image_demo.py \
+    data/fruit30/val/xigua/103.jpg \
+    resnet50_finetune.py \
+    --checkpoint work_dirs/resnet50_finetune/epoch_10.pth
